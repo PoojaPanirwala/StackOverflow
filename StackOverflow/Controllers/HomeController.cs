@@ -18,7 +18,20 @@ namespace StackOverflow.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult Categories()
+        {
+            return View();
+        }
+        public IActionResult Questions()
         {
             return View();
         }
